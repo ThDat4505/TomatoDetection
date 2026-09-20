@@ -1,0 +1,3 @@
+C:/Users/Thah.Dt4250/Downloads/tomatoDetection/build/CMakeFiles/TomatoDetection.dir
+C:/Users/Thah.Dt4250/Downloads/tomatoDetection/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Thah.Dt4250/Downloads/tomatoDetection/build/CMakeFiles/ZERO_CHECK.dir

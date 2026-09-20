@@ -1,0 +1,10 @@
+^C:\USERS\THAH.DT4250\DOWNLOADS\TOMATODETECTION\BUILD\CMAKEFILES\ED2E4BFF30AF630CD5965D9028798BD8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Thah.Dt4250/Downloads/tomatoDetection -BC:/Users/Thah.Dt4250/Downloads/tomatoDetection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Thah.Dt4250/Downloads/tomatoDetection/build/TomatoDetection.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
